@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2026-03-22T09:47:32.273532",
+    "responses": {
+      "Framework characterization is accurate and evidence-based": "Pass",
+      "SAW weight vectors are plausible and literature-supported": "Pass",
+      "Recommendations are coherent with organisational inputs": "Pass",
+      "Tool logic is internally consistent across test cases": "Pass",
+      "Rationale explanations are clear and understandable": "Pass",
+      "User interface is intuitive and easy to navigate": "Pass"
+    },
+    "comments": "All logic checks out. Weights are well justified.",
+    "summary": {
+      "total_items": 6,
+      "passed": 6,
+      "failed": 0
+    }
+  }
+]

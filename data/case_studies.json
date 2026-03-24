@@ -1,0 +1,46 @@
+{
+  "case_studies": [
+    {
+      "id": "CS001",
+      "organisation": "Large Government Agency",
+      "sector": "Government",
+      "org_size": 3000,
+      "governance_model": "Centralized",
+      "cultural_maturity": 2,
+      "regulatory_constraint": 5,
+      "technical_debt": 3,
+      "team_distribution": 4,
+      "actual_framework_adopted": "SAFe",
+      "transformation_outcome": "Successful",
+      "notes": "High regulatory environment and centralised governance made SAFe the natural fit. Structured ARTs provided the accountability chain required by the agency."
+    },
+    {
+      "id": "CS002",
+      "organisation": "Mid-Size Technology Firm",
+      "sector": "Technology",
+      "org_size": 800,
+      "governance_model": "Devolved",
+      "cultural_maturity": 5,
+      "regulatory_constraint": 1,
+      "technical_debt": 2,
+      "team_distribution": 3,
+      "actual_framework_adopted": "LeSS",
+      "transformation_outcome": "Successful",
+      "notes": "High cultural maturity and low governance overhead allowed LeSS descaling to thrive. Minimal bureaucracy aligned with the firm's engineering-led culture."
+    },
+    {
+      "id": "CS003",
+      "organisation": "Enterprise Technology Company",
+      "sector": "Technology",
+      "org_size": 2200,
+      "governance_model": "Hybrid",
+      "cultural_maturity": 3,
+      "regulatory_constraint": 2,
+      "technical_debt": 4,
+      "team_distribution": 5,
+      "actual_framework_adopted": "Scrum@Scale",
+      "transformation_outcome": "Partial",
+      "notes": "Modular Scrum@Scale structure handled high team distribution well but partial outcome reflects ongoing technical debt challenges that slowed adoption."
+    }
+  ]
+}

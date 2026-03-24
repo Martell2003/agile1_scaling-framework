@@ -1,0 +1,38 @@
+{
+  "SAFe": {
+    "organizational_size": 5,
+    "cultural_maturity": 3,
+    "governance_model": 5,
+    "regulatory_constraint": 5,
+    "technical_debt": 4,
+    "team_distribution": 5,
+    "sector_fit": {
+      "Technology": 4,
+      "Government": 5
+    }
+  },
+  "LeSS": {
+    "organizational_size": 2,
+    "cultural_maturity": 5,
+    "governance_model": 2,
+    "regulatory_constraint": 2,
+    "technical_debt": 3,
+    "team_distribution": 3,
+    "sector_fit": {
+      "Technology": 5,
+      "Government": 2
+    }
+  },
+  "Scrum@Scale": {
+    "organizational_size": 3,
+    "cultural_maturity": 4,
+    "governance_model": 3,
+    "regulatory_constraint": 3,
+    "technical_debt": 3,
+    "team_distribution": 4,
+    "sector_fit": {
+      "Technology": 4,
+      "Government": 3
+    }
+  }
+}

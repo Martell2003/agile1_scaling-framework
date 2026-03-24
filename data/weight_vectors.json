@@ -1,0 +1,20 @@
+{
+  "Technology": {
+    "organizational_size": 0.10,
+    "cultural_maturity": 0.25,
+    "governance_model": 0.10,
+    "regulatory_constraint": 0.10,
+    "technical_debt": 0.20,
+    "team_distribution": 0.15,
+    "sector_fit": 0.10
+  },
+  "Government": {
+    "organizational_size": 0.15,
+    "cultural_maturity": 0.10,
+    "governance_model": 0.20,
+    "regulatory_constraint": 0.25,
+    "technical_debt": 0.10,
+    "team_distribution": 0.10,
+    "sector_fit": 0.10
+  }
+}
