@@ -55,19 +55,19 @@ from data_access import load_case_studies
 cases = load_case_studies()
 
 for case in cases:
-    with st.expander(f"{case['id']} — {case['organisation']}"):
+    with st.expander(f"{case.get('id', 'N/A')} — {case.get('organisation', 'N/A')}"):
         col1, col2 = st.columns(2)
         with col1:
-            st.markdown(f"**Sector:** {case['sector']}")
-            st.markdown(f"**Size:** {case['org_size']} employees")
-            st.markdown(f"**Governance:** {case['governance_model']}")
-            st.markdown(f"**Cultural Maturity:** {case['cultural_maturity']}/5")
+            st.markdown(f"**Sector:** {case.get('sector', 'N/A')}")
+            st.markdown(f"**Size:** {case.get('org_size', 'N/A')} employees")
+            st.markdown(f"**Governance:** {case.get('governance_model', 'N/A')}")
+            st.markdown(f"**Cultural Maturity:** {case.get('cultural_maturity', 'N/A')}/5")
         with col2:
-            st.markdown(f"**Regulatory Constraint:** {case['regulatory_constraint']}/5")
-            st.markdown(f"**Technical Debt:** {case['technical_debt']}/5")
-            st.markdown(f"**Actual Framework:** {case['actual_framework_adopted']}")
-            st.markdown(f"**Outcome:** {case['transformation_outcome']}")
-        st.markdown(f"**Notes:** {case['notes']}")
+            st.markdown(f"**Regulatory Constraint:** {case.get('regulatory_constraint', 'N/A')}/5")
+            st.markdown(f"**Technical Debt:** {case.get('technical_debt', 'N/A')}/5")
+            st.markdown(f"**Actual Framework:** {case.get('actual_framework_adopted', 'N/A')}")
+            st.markdown(f"**Outcome:** {case.get('transformation_outcome', 'N/A')}")
+        st.markdown(f"**Notes:** {case.get('notes', 'N/A')}")
 
 st.markdown("---")
 
